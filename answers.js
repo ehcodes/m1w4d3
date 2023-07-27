@@ -24,7 +24,7 @@
 //-----------------------------
 // Fizz Buzz
 //-----------------------------
-for(let i=1;i<101;i++){
+/* for(let i=1;i<101;i++){
     if(i%3===0 && i%5===0){
         console.log('Fizzbuzz')
     }
@@ -34,51 +34,73 @@ for(let i=1;i<101;i++){
     if(i%5===0 ){
         console.log('Buzz')
     }
-}
+} */
+//-----------------------------
+// Wild Wild Life
+//-----------------------------
+const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
+const sharky = ["Sharky", "shark", 20, "Left Coast"]
+const plantee = ["Plantee", "plant",  5000 , "Mordor"]
+const porgee = ["Porgee", "Porg", 186, "Ahch-To"]
+const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
+console.log(plantee[2]=5001)
+console.log(plantee)
+console.log(wolfy[3]='Gotham City')
+console.log(wolfy)
+console.log(dart.push('Hawkins'))
+console.log(dart)
+console.log(wolfy[0]='Gameboy')
+console.log(wolfy)
 //-----------------------------
 // subheading
 //-----------------------------
+// console.log(xxx)
+//-----------------------------
+// subheading
+//-----------------------------
+// console.log(xxx)
 
 //-----------------------------
 // subheading
 //-----------------------------
+// console.log(xxx)
 
 //-----------------------------
 // subheading
 //-----------------------------
+// console.log(xxx)
 
 //-----------------------------
 // subheading
 //-----------------------------
+// console.log(xxx)
 
 //-----------------------------
 // subheading
 //-----------------------------
+// console.log(xxx)
 
 //-----------------------------
 // subheading
 //-----------------------------
+// console.log(xxx)
 
 //-----------------------------
 // subheading
 //-----------------------------
+// console.log(xxx)
 
 //-----------------------------
 // subheading
 //-----------------------------
+// console.log(xxx)
 
 //-----------------------------
 // subheading
 //-----------------------------
+// console.log(xxx)
 
 //-----------------------------
 // subheading
 //-----------------------------
-
-//-----------------------------
-// subheading
-//-----------------------------
-
-//-----------------------------
-// subheading
-//-----------------------------
+// console.log(xxx)
