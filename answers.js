@@ -38,7 +38,7 @@
 //-----------------------------
 // Wild Wild Life
 //-----------------------------
-const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
+/* const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
 const sharky = ["Sharky", "shark", 20, "Left Coast"]
 const plantee = ["Plantee", "plant",  5000 , "Mordor"]
 const porgee = ["Porgee", "Porg", 186, "Ahch-To"]
@@ -50,11 +50,14 @@ console.log(wolfy)
 console.log(dart.push('Hawkins'))
 console.log(dart)
 console.log(wolfy[0]='Gameboy')
-console.log(wolfy)
+console.log(wolfy) */
 //-----------------------------
-// subheading
+// Yell at the Ninja Turtles
 //-----------------------------
-// console.log(xxx)
+const ninjaTurtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo']
+for(let el of ninjaTurtles){
+    console.log(el.toUpperCase())
+}
 //-----------------------------
 // subheading
 //-----------------------------
