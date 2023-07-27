@@ -54,15 +54,59 @@ console.log(wolfy) */
 //-----------------------------
 // Yell at the Ninja Turtles
 //-----------------------------
-const ninjaTurtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo']
+/* const ninjaTurtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo']
 for(let el of ninjaTurtles){
     console.log(el.toUpperCase())
-}
+} */
 //-----------------------------
-// subheading
+// Methods, Revisited
 //-----------------------------
-// console.log(xxx)
-
+const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+/* console.log(favMovies.indexOf('Titanic')) */
+// 1. the sort method rearranges the elements in the array to be in order according to their unicode CSSFontFeatureValuesRule, because the array elements are all SVGStringList, the elements were alphabetized.
+/* console.log(favMovies.sort()) */
+// 2. Use the method pop
+// favMovies.pop()
+/* console.log(favMovies.pop())
+console.log(favMovies) */
+// 3. push "Guardians of the Galaxy"
+/* favMovies.push("Guardians of the Galaxy")
+console.log(favMovies) */
+// 4. Reverse the array
+/* console.log(favMovies.reverse())
+console.log(favMovies) */
+// 5. Use the shift method
+/* console.log(favMovies.shift())
+console.log(favMovies) */
+// 6. unshift - what does it return?
+/* console.log(favMovies.unshift())
+//returns the length of the array */
+// 7. splice "Django Unchained" and add "Avatar" (try finding
+// the index of "Django Unchained", instead of counting it
+// yourself) Thought question: did this permanently alter our
+// array?
+/* favMovies.splice(favMovies.indexOf('Django Unchained'),1,'Avatar')
+console.log(favMovies) */
+// 8. slice the last half of the array (challenge yourself and
+// try to programatically determine the middle of the array
+// rather than counting it and hard coding it) - Thought
+// question: did this permanently alter our array?
+/* const midIndex = Math.floor(favMovies.length/2)
+console.log(favMovies.slice(0,midIndex)) */
+// 9. store the value of your slice in a variable, console.log it - Thought question: what is going on here?
+/* const splicedMovies = favMovies.slice(0,midIndex) */
+// 10. console.log your final results
+/* console.log(splicedMovies) */
+// 11. After running the above tasks, console.log the
+// index of "Fast and Furious" -We removed it from the
+// array, what value do we get when we look for the
+// index of something that is not in the array?
+/* console.log(splicedMovies.indexOf('Fast and Furious'))
+// beacause it doesn't exist in the array, a value of -1
+// is returned */
+// 12. Thought question: that we declared the variable
+// favMovies with const, and yet, we were allowed to
+// change the array. Weird? Should we have used let?
 //-----------------------------
 // subheading
 //-----------------------------
