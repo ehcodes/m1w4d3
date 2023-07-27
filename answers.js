@@ -137,10 +137,27 @@ for(let i=0;i<20;i++){
 const midIndex2 = Math.floor(nums.length/2)
 nums.sort()
 console.log(nums[midIndex2]) */
+/* ////////////////////////////////
+    Hungry for More?
+//////////////////////////////// */
 //-----------------------------
-// subheading
+// Fibonnacci: https://www.hackerrank.com/challenges/ctci-fibonacci-numbers/problem?isFullScreen=true
 //-----------------------------
-// console.log(xxx)
+function fibonacci(n) {
+    const arr = []
+    let count = n;
+    for(let i = 0;i<=n;i++){
+        if(i>1){
+            count = (arr[i-1])+(arr[i-2])
+            arr.push(count)
+        }else{
+            arr.push(i)
+        }
+    }
+    return arr[n]
+}
+
+console.log(fibonacci(6))
 
 //-----------------------------
 // subheading
