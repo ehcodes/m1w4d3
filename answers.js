@@ -110,7 +110,7 @@ console.log(favMovies.slice(0,midIndex)) */
 //-----------------------------
 // Where is Waldo
 //-----------------------------
-const whereIsWaldo = [["Timmy", "Frank"], "Eggbert", ["Lucinda", "Jacc", "Neff", "Snoop"], ["Petunia", ["Baked Goods", "Waldo"]]];
+/* const whereIsWaldo = [["Timmy", "Frank"], "Eggbert", ["Lucinda", "Jacc", "Neff", "Snoop"], ["Petunia", ["Baked Goods", "Waldo"]]];
 // Remove Eggbert (hint look at the slice/splice method(s))
 whereIsWaldo.splice(1,1)
 console.log(whereIsWaldo)
@@ -118,23 +118,25 @@ console.log(whereIsWaldo)
 whereIsWaldo[1].splice(2,1,"No One")
 console.log(whereIsWaldo)
 // Access and console.log "Waldo"
-console.log(whereIsWaldo[2][1][1])
+console.log(whereIsWaldo[2][1][1]) */
 //-----------------------------
 // Excited Kitten
 //-----------------------------
 // Write code that logs "Love me, pet me! HSSSSSS!" 20 times.
 // For every even number in your loop, log "...human...why you taking pictures of me?...", "...the catnip made me do it...", or "...why does the red dot always get away..." at random.
-let catThoughts = ["...human...why you taking pictures of me?...", "...the catnip made me do it...", "...why does the red dot always get away..."]
+/* let catThoughts = ["...human...why you taking pictures of me?...", "...the catnip made me do it...", "...why does the red dot always get away..."]
 for(let i=0;i<20;i++){
     let ctIndex = Math.floor(Math.random()*catThoughts.length)
     console.log('Love me, pet me! HSSSSSS!')
     i%2===0 ? console.log(catThoughts[ctIndex]) : null
-}
+} */
 //-----------------------------
-// subheading
+// Find the Median
 //-----------------------------
-// console.log(xxx)
-
+/* const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
+const midIndex2 = Math.floor(nums.length/2)
+nums.sort()
+console.log(nums[midIndex2]) */
 //-----------------------------
 // subheading
 //-----------------------------
